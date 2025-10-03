@@ -16,3 +16,9 @@ jobs:
           script: |
             const body = `Thank you for raising this issue! Our team will review it soon. 
             For more queries, discussions, or approval of requests, please join our Discord server: [Discord Link](https://discord.com/invite/Yn9g6KuWyA)`;
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
