@@ -1,5 +1,7 @@
 # node-cmd-exec
 
+[![npm version](https://img.shields.io/npm/v/node-cmd-exec.svg?color=blue)](https://www.npmjs.com/package/node-cmd-exec)
+
 > Simple and robust Node.js utility to run shell commands asynchronously and synchronously
 
 <img width="1536" height="1024" alt="L" src="https://github.com/user-attachments/assets/41461a9e-88cb-4f6e-8684-d9dad322609e" />
